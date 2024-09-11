@@ -60,3 +60,55 @@ button{
 .edit-btn{
   background-color: rgb(0, 183, 255);
 }
+.add-btn{
+  padding: 5px 10px;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-left: 85%;
+  margin-bottom: 20px;
+}
+
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80%;
+  margin-bottom: 20px;
+}
+
+.controls label {
+  margin-right: 10px;
+}
+
+.controls select {
+  padding: 5px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  align-self: center;
+}
+
